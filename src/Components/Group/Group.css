@@ -1,0 +1,70 @@
+.friends-main-heading {
+  font-size: 3rem;
+  color: #21c3a1;
+}
+.add-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.group-add-form {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.add-form .form-item {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 5px 0px;
+}
+.add-form .form-input {
+  width: 200px;
+  padding: 10px 10px;
+  font-size: 17px;
+  margin: 5px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid #0e4c3f;
+}
+.add-form .form-input:focus {
+  outline: none;
+}
+.group-add-form {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.add-form .form-item {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 5px 0px;
+}
+.form-textarea {
+  height: 45px;
+  overflow: scroll;
+  display: flex;
+  justify-content: flex-start;
+}
+.form-textarea button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 5px;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0e4c3f;
+  color: white;
+}
+.form-textarea button span {
+  margin: 5px;
+}
+
+.submit-btn {
+  padding: 20px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: #21c3a1;
+  border: none;
+  font-size: 18px;
+}
